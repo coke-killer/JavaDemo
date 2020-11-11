@@ -160,5 +160,7 @@ public class StreamEntity {
         //规约
         Optional<Integer> optional = list.stream().map(Student::getAge).collect(Collectors.reducing(Integer::sum));
         System.out.println(optional.get());
+        System.out.println("xxxxxx");
+
     }
 }
